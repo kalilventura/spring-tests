@@ -1,7 +1,7 @@
 package br.com.github.kalilventura.tests.student;
 
-import br.com.github.kalilventura.tests.student.exception.StudentNotFoundException;
-import br.com.github.kalilventura.tests.student.exception.BadRequestException;
+import br.com.github.kalilventura.tests.student.exception.*;
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
