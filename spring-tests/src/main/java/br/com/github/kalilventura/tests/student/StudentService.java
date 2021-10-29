@@ -1,6 +1,7 @@
 package br.com.github.kalilventura.tests.student;
 
-import br.com.github.kalilventura.tests.student.exception.*;
+import br.com.github.kalilventura.tests.student.exception.BadRequestException;
+import br.com.github.kalilventura.tests.student.exception.StudentNotFoundException;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 

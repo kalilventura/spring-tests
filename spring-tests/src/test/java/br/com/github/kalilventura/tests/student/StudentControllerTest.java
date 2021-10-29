@@ -30,7 +30,7 @@ class StudentControllerTest {
     }
 
     @Test
-    void shouldAddStudent() throws Exception {
+    void shouldAddStudent() {
         Student student = new Student("joshua", "joshua@gmail.com", Gender.MALE);
         ResponseEntity<?> response = controller.addStudent(student);
 
